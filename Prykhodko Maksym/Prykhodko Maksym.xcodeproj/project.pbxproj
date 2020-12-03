@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD94674B256FB4F9007FC00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94674A256FB4F9007FC00B /* AppDelegate.swift */; };
+		FD94674D256FB4F9007FC00B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94674C256FB4F9007FC00B /* SceneDelegate.swift */; };
+		FD94674F256FB4F9007FC00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD94674E256FB4F9007FC00B /* ViewController.swift */; };
+		FD946752256FB4F9007FC00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD946750256FB4F9007FC00B /* Main.storyboard */; };
+		FD946757256FB502007FC00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD946755256FB502007FC00B /* LaunchScreen.storyboard */; };
+		FDD8873D2579327E009F7792 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD8873C2579327E009F7792 /* Movie.swift */; };
+		FDD88740257932DC009F7792 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD8873F257932DC009F7792 /* MovieTableViewCell.swift */; };
+		FDD8874525793C8A009F7792 /* MoviesList.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDD8874325793C8A009F7792 /* MoviesList.txt */; };
+		FDD8875725793DFD009F7792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD8875625793DFD009F7792 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD946747256FB4F9007FC00B /* Prykhodko Maksym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prykhodko Maksym.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD94674A256FB4F9007FC00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD94674C256FB4F9007FC00B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD94674E256FB4F9007FC00B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD946751256FB4F9007FC00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD946756256FB502007FC00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD946758256FB502007FC00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD8873C2579327E009F7792 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		FDD8873F257932DC009F7792 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		FDD8874325793C8A009F7792 /* MoviesList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MoviesList.txt; path = "../../../Programming assignment 3 2/MoviesList.txt"; sourceTree = "<group>"; };
+		FDD8875625793DFD009F7792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Lab3-main/MyUsefulApp/Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD946744256FB4F9007FC00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD94673E256FB4F8007FC00B = {
+			isa = PBXGroup;
+			children = (
+				FD946749256FB4F9007FC00B /* Prykhodko Maksym */,
+				FD946748256FB4F9007FC00B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD946748256FB4F9007FC00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD946747256FB4F9007FC00B /* Prykhodko Maksym.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD946749256FB4F9007FC00B /* Prykhodko Maksym */ = {
+			isa = PBXGroup;
+			children = (
+				FD94674A256FB4F9007FC00B /* AppDelegate.swift */,
+				FD94674C256FB4F9007FC00B /* SceneDelegate.swift */,
+				FDD8873C2579327E009F7792 /* Movie.swift */,
+				FD94674E256FB4F9007FC00B /* ViewController.swift */,
+				FDD8873F257932DC009F7792 /* MovieTableViewCell.swift */,
+				FD946750256FB4F9007FC00B /* Main.storyboard */,
+				FDD8875625793DFD009F7792 /* Assets.xcassets */,
+				FDD8874325793C8A009F7792 /* MoviesList.txt */,
+				FD946755256FB502007FC00B /* LaunchScreen.storyboard */,
+				FD946758256FB502007FC00B /* Info.plist */,
+			);
+			path = "Prykhodko Maksym";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD946746256FB4F9007FC00B /* Prykhodko Maksym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD94675B256FB502007FC00B /* Build configuration list for PBXNativeTarget "Prykhodko Maksym" */;
+			buildPhases = (
+				FD946743256FB4F9007FC00B /* Sources */,
+				FD946744256FB4F9007FC00B /* Frameworks */,
+				FD946745256FB4F9007FC00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prykhodko Maksym";
+			productName = "Prykhodko Maksym";
+			productReference = FD946747256FB4F9007FC00B /* Prykhodko Maksym.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD94673F256FB4F8007FC00B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FD946746256FB4F9007FC00B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FD946742256FB4F8007FC00B /* Build configuration list for PBXProject "Prykhodko Maksym" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD94673E256FB4F8007FC00B;
+			productRefGroup = FD946748256FB4F9007FC00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD946746256FB4F9007FC00B /* Prykhodko Maksym */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD946745256FB4F9007FC00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD8874525793C8A009F7792 /* MoviesList.txt in Resources */,
+				FD946757256FB502007FC00B /* LaunchScreen.storyboard in Resources */,
+				FDD8875725793DFD009F7792 /* Assets.xcassets in Resources */,
+				FD946752256FB4F9007FC00B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD946743256FB4F9007FC00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD88740257932DC009F7792 /* MovieTableViewCell.swift in Sources */,
+				FD94674F256FB4F9007FC00B /* ViewController.swift in Sources */,
+				FD94674B256FB4F9007FC00B /* AppDelegate.swift in Sources */,
+				FDD8873D2579327E009F7792 /* Movie.swift in Sources */,
+				FD94674D256FB4F9007FC00B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD946750256FB4F9007FC00B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD946751256FB4F9007FC00B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD946755256FB502007FC00B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD946756256FB502007FC00B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD946759256FB502007FC00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD94675A256FB502007FC00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD94675C256FB502007FC00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prykhodko Maksym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.kpi.comsys.iv7321.Prykhodko-Maksym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FD94675D256FB502007FC00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prykhodko Maksym/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.kpi.comsys.iv7321.Prykhodko-Maksym";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD946742256FB4F8007FC00B /* Build configuration list for PBXProject "Prykhodko Maksym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD946759256FB502007FC00B /* Debug */,
+				FD94675A256FB502007FC00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD94675B256FB502007FC00B /* Build configuration list for PBXNativeTarget "Prykhodko Maksym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD94675C256FB502007FC00B /* Debug */,
+				FD94675D256FB502007FC00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD94673F256FB4F8007FC00B /* Project object */;
+}
